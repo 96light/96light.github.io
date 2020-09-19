@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #2E8B57;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+  <div class="topnav">
+    <a class="active" href="../home.html">Home</a>
+    <a href="../contacts.html">Contact</a>
+    <a href="../blog.html">Blog</a>
+  </div>
+
+<div style="padding-left:16px">
+
+<h1>Latest Posts</h1>
+
+<ul>
+
+    <li>
+      <h2><a href="{{ post.url }}"> Banana</a></h2>
+      <p>
+        A banana is an edible fruit – botanically a berry – produced by several kinds
+of large herbaceous flowering plants in the genus Musa.
+      In some countries, bananas used for cooking may be called "plantains",
+  distinguishing them from dessert bananas. The fruit is variable in size, color,
+  and firmness, but is usually elongated and curved, with soft flesh rich in
+  starch covered with a rind, which may be green, yellow, red, purple, or brown
+  when ripe.</p>
+    </li>
+    <li>
+      <h2><a href="{{ post.url }}"> Kiwifruit</a></h2>
+      <p>
+        Kiwifruit (often abbreviated as kiwi), or Chinese gooseberry is the edible
+berry of several species of woody vines in the genus Actinidia.
+
+The most common cultivar group of kiwifruit is oval, about the size of a large
+hen's egg (5–8 cm (2.0–3.1 in) in length and 4.5–5.5 cm (1.8–2.2 in) in
+diameter). It has a fibrous, dull greenish-brown skin and bright green or
+golden flesh with rows of tiny, black, edible seeds. The fruit has a soft
+texture, with a sweet and unique flavor</p>
+    </li>
+    <li>
+      <h2><a href="{{ post.url }}"> Apple</a></h2>
+      <p>
+        An apple is a sweet, edible fruit produced by an apple tree.
+
+Apple trees are cultivated worldwide, and are the most widely grown species in
+the genus Malus. The tree originated in Central Asia, where its wild ancestor,
+Malus sieversii, is still found today. Apples have been grown for thousands of
+years in Asia and Europe, and were brought to North America by European
+colonists.</p>
+    </li>
+
+
+</ul>
+</div>
+
+</body>
+</html>
